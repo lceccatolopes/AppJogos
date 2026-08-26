@@ -25,7 +25,6 @@ type GameCardProps = {
   info?: string;
   accent: Accent;
   enabled?: boolean;
-  rotate?: string;
   onPress?: () => void;
 };
 
@@ -37,14 +36,12 @@ function GameCard({
   info,
   accent,
   enabled = false,
-  rotate = '0deg',
   onPress,
 }: GameCardProps) {
   return (
     <View
       style={[
         styles.gameCard,
-        { transform: [{ rotate }] },
         enabled
           ? { borderColor: accent.base }
           : styles.gameCardDisabled,
@@ -57,7 +54,7 @@ function GameCard({
             {
               backgroundColor: enabled
                 ? accent.base
-                : '#2A2160',
+                : '#162936',
             },
           ]}
         >
@@ -83,7 +80,7 @@ function GameCard({
               {
                 color: enabled
                   ? accent.base
-                  : '#756FA3',
+                  : '#5F7683',
               },
             ]}
           >
@@ -96,7 +93,7 @@ function GameCard({
         <Ionicons
           name={icon}
           size={18}
-          color={enabled ? accent.base : '#756FA3'}
+          color={enabled ? accent.base : '#5F7683'}
         />
 
         <Text
@@ -128,10 +125,7 @@ function GameCard({
         <Pressable
           style={({ pressed }) => [
             styles.playButton,
-            {
-              backgroundColor: accent.base,
-              borderBottomColor: accent.dark,
-            },
+            { backgroundColor: accent.base },
             pressed && styles.playButtonPressed,
           ]}
           onPress={onPress}
@@ -205,7 +199,6 @@ export default function HomeScreen() {
             info="50 fases • 5 letras • 6 tentativas"
             accent={GameTheme.games.oculta}
             enabled
-            rotate="-0.6deg"
             onPress={() =>
               router.push('/games/word-game')
             }
@@ -219,7 +212,6 @@ export default function HomeScreen() {
             info="50 fases • 5 letras"
             accent={GameTheme.games.embaralhada}
             enabled
-            rotate="0.6deg"
             onPress={() =>
               router.push('/games/scrambled-word')
             }
@@ -233,7 +225,6 @@ export default function HomeScreen() {
             info="50 fases • pistas e respostas"
             accent={GameTheme.games.cruzadas}
             enabled
-            rotate="-0.6deg"
             onPress={() =>
               router.push('/games/crossword')
             }
@@ -247,7 +238,6 @@ export default function HomeScreen() {
             info="50 fases • vários temas"
             accent={GameTheme.games.cacaPalavras}
             enabled
-            rotate="0.6deg"
             onPress={() =>
               router.push('/games/word-search')
             }
@@ -261,7 +251,6 @@ export default function HomeScreen() {
             info="Fácil • Médio • Difícil"
             accent={GameTheme.games.sudoku}
             enabled
-            rotate="-0.6deg"
             onPress={() =>
               router.push('/games/sudoku')
             }
@@ -275,7 +264,6 @@ export default function HomeScreen() {
             info="50 fases • categorias e associações"
             accent={GameTheme.games.conexo}
             enabled
-            rotate="0.6deg"
             onPress={() =>
               router.push('/games/conexo')
             }
@@ -323,16 +311,14 @@ const styles = StyleSheet.create({
   },
 
   headerIcon: {
-    width: 58,
-    height: 58,
-    borderRadius: 20,
+    width: 52,
+    height: 52,
+    borderRadius: 16,
     backgroundColor: GameTheme.surfaceAlt,
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: GameTheme.outline,
-    borderBottomWidth: 5,
     justifyContent: 'center',
     alignItems: 'center',
-    transform: [{ rotate: '6deg' }],
   },
 
   headerEmoji: {
@@ -374,8 +360,8 @@ const styles = StyleSheet.create({
 
   gameCard: {
     backgroundColor: GameTheme.surface,
-    borderWidth: 2.5,
-    borderRadius: 26,
+    borderWidth: 1,
+    borderRadius: 20,
     padding: 19,
   },
 
@@ -403,7 +389,7 @@ const styles = StyleSheet.create({
 
   statusBadge: {
     borderRadius: 20,
-    borderWidth: 1.5,
+    borderWidth: 1,
     paddingHorizontal: 11,
     paddingVertical: 6,
   },
@@ -456,8 +442,7 @@ const styles = StyleSheet.create({
 
   playButton: {
     height: 50,
-    borderRadius: 16,
-    borderBottomWidth: 5,
+    borderRadius: 14,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

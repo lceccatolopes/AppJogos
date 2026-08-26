@@ -1626,7 +1626,7 @@ export default function WordSearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#100C24',
+    backgroundColor: '#051824',
   },
 
   content: {
@@ -1639,22 +1639,22 @@ const styles = StyleSheet.create({
     width: 44,
     height: 44,
     borderRadius: 14,
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 20,
   },
 
   backButtonText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 34,
     lineHeight: 36,
   },
 
   eyebrow: {
-    color: '#3DDC84',
+    color: '#27e9b5',
     fontSize: 11,
     fontWeight: '900',
     letterSpacing: 2,
@@ -1662,7 +1662,7 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 30,
     fontWeight: '900',
     textAlign: 'center',
@@ -1670,7 +1670,7 @@ const styles = StyleSheet.create({
   },
 
   phaseTitle: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 14,
     textAlign: 'center',
     marginTop: 5,
@@ -1678,9 +1678,9 @@ const styles = StyleSheet.create({
   },
 
   progressCard: {
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     borderRadius: 15,
     padding: 15,
     flexDirection: 'row',
@@ -1689,28 +1689,28 @@ const styles = StyleSheet.create({
   },
 
   progressLabel: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 9,
     fontWeight: '900',
     letterSpacing: 1.3,
   },
 
   progressValue: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 20,
     fontWeight: '900',
     marginTop: 3,
   },
 
   progressPercent: {
-    color: '#3DDC84',
+    color: '#27e9b5',
     fontSize: 21,
     fontWeight: '900',
   },
 
   progressBar: {
     height: 7,
-    backgroundColor: '#332B66',
+    backgroundColor: '#3b5265',
     borderRadius: 20,
     overflow: 'hidden',
     marginTop: 9,
@@ -1719,7 +1719,7 @@ const styles = StyleSheet.create({
 
   progressFill: {
     height: '100%',
-    backgroundColor: '#3DDC84',
+    backgroundColor: '#27e9b5',
   },
 
   phaseNavigation: {
@@ -1733,9 +1733,9 @@ const styles = StyleSheet.create({
     width: 46,
     height: 46,
     borderRadius: 14,
-    backgroundColor: '#241B57',
+    backgroundColor: '#162936',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -1745,7 +1745,7 @@ const styles = StyleSheet.create({
   },
 
   phaseButtonText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 30,
   },
 
@@ -1766,18 +1766,18 @@ const styles = StyleSheet.create({
   },
 
   completeText: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 
   pendingText: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
   },
 
   board: {
-    backgroundColor: '#241B57',
+    backgroundColor: '#162936',
     borderRadius: 18,
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     padding: 10,
     alignItems: 'center',
   },
@@ -1791,20 +1791,20 @@ const styles = StyleSheet.create({
     height: 45,
     margin: 2,
     borderRadius: 9,
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     justifyContent: 'center',
     alignItems: 'center',
   },
 
   cellSelected: {
-    backgroundColor: '#3DDC84',
-    borderColor: '#3DDC84',
+    backgroundColor: '#27e9b5',
+    borderColor: '#27e9b5',
   },
 
   cellText: {
-    color: '#EDEBFF',
+    color: '#DCE8E6',
     fontSize: 18,
     fontWeight: '900',
   },
@@ -1814,9 +1814,9 @@ const styles = StyleSheet.create({
   },
 
   selectionCard: {
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     borderRadius: 15,
     padding: 15,
     marginTop: 18,
@@ -1824,14 +1824,14 @@ const styles = StyleSheet.create({
   },
 
   selectionLabel: {
-    color: '#756FA3',
+    color: '#5F7683',
     fontSize: 9,
     fontWeight: '900',
     letterSpacing: 1.5,
   },
 
   selectionText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 18,
     fontWeight: '900',
     letterSpacing: 2,
@@ -1844,19 +1844,19 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     borderRadius: 14,
     borderBottomWidth: 3,
-    borderBottomColor: '#170F35',
-    backgroundColor: '#2A2160',
+    borderBottomColor: '#0A1F2C',
+    backgroundColor: '#0F2530',
   },
 
   clearButtonText: {
-    color: '#3DDC84',
+    color: '#27e9b5',
     fontSize: 10,
     fontWeight: '900',
     letterSpacing: 1,
   },
 
   wordsTitle: {
-    color: '#756FA3',
+    color: '#5F7683',
     fontSize: 10,
     fontWeight: '900',
     letterSpacing: 1.8,
@@ -1871,31 +1871,31 @@ const styles = StyleSheet.create({
   },
 
   wordBadge: {
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     borderRadius: 20,
     paddingHorizontal: 13,
     paddingVertical: 8,
   },
 
   wordBadgeFound: {
-    backgroundColor: '#123626',
-    borderColor: '#1E8F63',
+    backgroundColor: '#0E3A32',
+    borderColor: '#159E82',
   },
 
   wordText: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 11,
     fontWeight: '800',
   },
 
   wordTextFound: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 
   phaseListTitle: {
-    color: '#756FA3',
+    color: '#5F7683',
     fontSize: 10,
     fontWeight: '900',
     letterSpacing: 1.8,
@@ -1913,16 +1913,16 @@ const styles = StyleSheet.create({
     width: '17.5%',
     aspectRatio: 1,
     borderRadius: 12,
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     justifyContent: 'center',
     alignItems: 'center',
   },
 
   phaseTileComplete: {
-    backgroundColor: '#123626',
-    borderColor: '#1E8F63',
+    backgroundColor: '#0E3A32',
+    borderColor: '#159E82',
   },
 
   phaseTileLocked: {
@@ -1930,22 +1930,22 @@ const styles = StyleSheet.create({
   },
 
   phaseTileCurrent: {
-    borderColor: '#3DDC84',
+    borderColor: '#27e9b5',
     borderWidth: 2,
   },
 
   phaseTileText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 15,
     fontWeight: '900',
   },
 
   phaseTileTextComplete: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 
   phaseTileStatus: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 10,
     marginTop: 2,
   },

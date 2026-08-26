@@ -527,7 +527,7 @@ export default function ScrambledWordScreen() {
                 )
               }
               placeholder="DIGITE A PALAVRA"
-              placeholderTextColor="#756FA3"
+              placeholderTextColor="#5F7683"
               maxLength={5}
               autoCapitalize="characters"
               returnKeyType="done"
@@ -708,7 +708,7 @@ const styles =
   StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#100C24',
+      backgroundColor: '#051824',
     },
 
     content: {
@@ -721,22 +721,22 @@ const styles =
       width: 44,
       height: 44,
       borderRadius: 14,
-      backgroundColor: '#1D1846',
+      backgroundColor: '#0F2530',
       borderWidth: 1,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       alignItems: 'center',
       justifyContent: 'center',
       marginBottom: 20,
     },
 
     backButtonText: {
-      color: '#FFECB3',
+      color: '#EAF6F2',
       fontSize: 34,
       lineHeight: 36,
     },
 
     eyebrow: {
-      color: '#FF9F45',
+      color: '#27e9b5',
       fontSize: 11,
       fontWeight: '900',
       letterSpacing: 2,
@@ -744,7 +744,7 @@ const styles =
     },
 
     title: {
-      color: '#FFECB3',
+      color: '#EAF6F2',
       fontSize: 30,
       fontWeight: '900',
       textAlign: 'center',
@@ -752,7 +752,7 @@ const styles =
     },
 
     description: {
-      color: '#ABA4D9',
+      color: '#8CA3AE',
       fontSize: 14,
       textAlign: 'center',
       marginTop: 10,
@@ -760,9 +760,9 @@ const styles =
     },
 
     progressCard: {
-      backgroundColor: '#1D1846',
+      backgroundColor: '#0F2530',
       borderWidth: 1,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       borderRadius: 15,
       padding: 15,
       flexDirection: 'row',
@@ -771,28 +771,28 @@ const styles =
     },
 
     progressLabel: {
-      color: '#ABA4D9',
+      color: '#8CA3AE',
       fontSize: 9,
       fontWeight: '900',
       letterSpacing: 1.3,
     },
 
     progressValue: {
-      color: '#FFECB3',
+      color: '#EAF6F2',
       fontSize: 20,
       fontWeight: '900',
       marginTop: 3,
     },
 
     progressPercent: {
-      color: '#FF9F45',
+      color: '#27e9b5',
       fontSize: 21,
       fontWeight: '900',
     },
 
     progressBar: {
       height: 7,
-      backgroundColor: '#332B66',
+      backgroundColor: '#3b5265',
       borderRadius: 20,
       overflow: 'hidden',
       marginTop: 9,
@@ -801,7 +801,7 @@ const styles =
 
     progressFill: {
       height: '100%',
-      backgroundColor: '#FF9F45',
+      backgroundColor: '#27e9b5',
       borderRadius: 20,
     },
 
@@ -816,9 +816,9 @@ const styles =
       width: 46,
       height: 46,
       borderRadius: 14,
-      backgroundColor: '#241B57',
+      backgroundColor: '#162936',
       borderWidth: 1,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       alignItems: 'center',
       justifyContent: 'center',
     },
@@ -828,7 +828,7 @@ const styles =
     },
 
     phaseButtonText: {
-      color: '#FFECB3',
+      color: '#EAF6F2',
       fontSize: 30,
     },
 
@@ -849,24 +849,24 @@ const styles =
     },
 
     completeText: {
-      color: '#3ED598',
+      color: '#27e9b5',
     },
 
     pendingText: {
-      color: '#ABA4D9',
+      color: '#8CA3AE',
     },
 
     scrambledArea: {
-      backgroundColor: '#241B57',
+      backgroundColor: '#162936',
       borderWidth: 1,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       borderRadius: 20,
       padding: 22,
       alignItems: 'center',
     },
 
     scrambledLabel: {
-      color: '#756FA3',
+      color: '#5F7683',
       fontSize: 10,
       fontWeight: '900',
       letterSpacing: 1.5,
@@ -882,7 +882,7 @@ const styles =
       width: 49,
       height: 55,
       borderRadius: 12,
-      backgroundColor: '#FF9F45',
+      backgroundColor: '#27e9b5',
       alignItems: 'center',
       justifyContent: 'center',
     },
@@ -895,9 +895,9 @@ const styles =
 
     input: {
       height: 54,
-      backgroundColor: '#1D1846',
+      backgroundColor: '#0F2530',
       borderWidth: 1,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       borderRadius: 14,
       color: '#FFFFFF',
       fontSize: 16,
@@ -909,10 +909,10 @@ const styles =
 
     confirmButton: {
       height: 54,
-      backgroundColor: '#FF9F45',
+      backgroundColor: '#27e9b5',
       borderRadius: 18,
       borderBottomWidth: 5,
-      borderBottomColor: '#C36F1E',
+      borderBottomColor: '#159E82',
       justifyContent: 'center',
       alignItems: 'center',
       marginTop: 12,
@@ -926,7 +926,7 @@ const styles =
     },
 
     errorCounter: {
-      color: '#756FA3',
+      color: '#5F7683',
       fontSize: 11,
       textAlign: 'center',
       marginTop: 12,
@@ -938,13 +938,13 @@ const styles =
     },
 
     resultTitle: {
-      color: '#3ED598',
+      color: '#27e9b5',
       fontSize: 19,
       fontWeight: '900',
     },
 
     answerText: {
-      color: '#FFECB3',
+      color: '#EAF6F2',
       fontSize: 27,
       fontWeight: '900',
       letterSpacing: 3,
@@ -952,11 +952,11 @@ const styles =
     },
 
     retryButton: {
-      backgroundColor: '#241B57',
+      backgroundColor: '#162936',
       borderWidth: 2,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       borderBottomWidth: 5,
-      borderBottomColor: '#170F35',
+      borderBottomColor: '#0A1F2C',
       borderRadius: 16,
       paddingHorizontal: 24,
       paddingVertical: 14,
@@ -971,10 +971,10 @@ const styles =
     },
 
     nextButton: {
-      backgroundColor: '#FF9F45',
+      backgroundColor: '#27e9b5',
       borderRadius: 16,
       borderBottomWidth: 5,
-      borderBottomColor: '#C36F1E',
+      borderBottomColor: '#159E82',
       paddingHorizontal: 28,
       paddingVertical: 14,
       marginTop: 10,
@@ -988,7 +988,7 @@ const styles =
     },
 
     phaseListTitle: {
-      color: '#756FA3',
+      color: '#5F7683',
       fontSize: 10,
       fontWeight: '900',
       letterSpacing: 1.8,
@@ -1006,16 +1006,16 @@ const styles =
       width: '17.5%',
       aspectRatio: 1,
       borderRadius: 12,
-      backgroundColor: '#1D1846',
+      backgroundColor: '#0F2530',
       borderWidth: 1,
-      borderColor: '#372C6E',
+      borderColor: '#3b5265',
       alignItems: 'center',
       justifyContent: 'center',
     },
 
     phaseTileComplete: {
-      borderColor: '#1E8F63',
-      backgroundColor: '#123626',
+      borderColor: '#159E82',
+      backgroundColor: '#0E3A32',
     },
 
     phaseTileLocked: {
@@ -1023,22 +1023,22 @@ const styles =
     },
 
     phaseTileCurrent: {
-      borderColor: '#FF9F45',
+      borderColor: '#27e9b5',
       borderWidth: 2,
     },
 
     phaseTileText: {
-      color: '#FFECB3',
+      color: '#EAF6F2',
       fontSize: 15,
       fontWeight: '900',
     },
 
     phaseTileTextComplete: {
-      color: '#3ED598',
+      color: '#27e9b5',
     },
 
     phaseTileStatus: {
-      color: '#ABA4D9',
+      color: '#8CA3AE',
       fontSize: 10,
       marginTop: 2,
     },

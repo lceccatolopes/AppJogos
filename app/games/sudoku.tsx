@@ -711,7 +711,7 @@ const styles = StyleSheet.create({
   },
 
   numberKeyText: {
-    color: '#241B0A',
+    color: '#051824',
     fontSize: 18,
     fontWeight: '900',
   },
@@ -768,7 +768,7 @@ const styles = StyleSheet.create({
   },
 
   restartButtonText: {
-    color: '#241B0A',
+    color: '#051824',
     fontSize: 13,
     fontWeight: '900',
     letterSpacing: 1,

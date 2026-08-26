@@ -269,14 +269,14 @@ export default function WordGameScreen() {
     resultado: ResultadoLetra
   ) {
     if (resultado === 'correta') {
-      return '#1E8F63';
+      return '#27e9b5';
     }
 
     if (resultado === 'existe') {
-      return '#FFD23F';
+      return '#3b5265';
     }
 
-    return '#332B66';
+    return '#162936';
   }
 
   const perdeu =
@@ -483,7 +483,7 @@ export default function WordGameScreen() {
                 )
               }
               placeholder="DIGITE UMA PALAVRA"
-              placeholderTextColor="#756FA3"
+              placeholderTextColor="#5F7683"
               autoCapitalize="characters"
               maxLength={5}
               returnKeyType="done"
@@ -639,7 +639,7 @@ export default function WordGameScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#100C24',
+    backgroundColor: '#051824',
   },
 
   scrollContent: {
@@ -659,22 +659,22 @@ const styles = StyleSheet.create({
     width: 44,
     height: 44,
     borderRadius: 14,
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     alignItems: 'center',
     justifyContent: 'center',
   },
 
   backButtonText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 34,
     lineHeight: 36,
     fontWeight: '500',
   },
 
   smallTitle: {
-    color: '#FF5D73',
+    color: '#27e9b5',
     fontSize: 11,
     fontWeight: '800',
     letterSpacing: 2,
@@ -682,7 +682,7 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 30,
     fontWeight: '900',
     textAlign: 'center',
@@ -690,7 +690,7 @@ const styles = StyleSheet.create({
   },
 
   description: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 14,
     textAlign: 'center',
     marginTop: 10,
@@ -698,9 +698,9 @@ const styles = StyleSheet.create({
   },
 
   progressCard: {
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     borderRadius: 15,
     padding: 15,
     flexDirection: 'row',
@@ -709,28 +709,28 @@ const styles = StyleSheet.create({
   },
 
   progressLabel: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 9,
     fontWeight: '900',
     letterSpacing: 1.3,
   },
 
   progressValue: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 20,
     fontWeight: '900',
     marginTop: 3,
   },
 
   progressPercent: {
-    color: '#FF5D73',
+    color: '#27e9b5',
     fontSize: 21,
     fontWeight: '900',
   },
 
   progressBar: {
     height: 7,
-    backgroundColor: '#332B66',
+    backgroundColor: '#3b5265',
     borderRadius: 20,
     overflow: 'hidden',
     marginTop: 9,
@@ -739,7 +739,7 @@ const styles = StyleSheet.create({
 
   progressFill: {
     height: '100%',
-    backgroundColor: '#FF5D73',
+    backgroundColor: '#27e9b5',
     borderRadius: 20,
   },
 
@@ -754,9 +754,9 @@ const styles = StyleSheet.create({
     width: 46,
     height: 46,
     borderRadius: 14,
-    backgroundColor: '#241B57',
+    backgroundColor: '#162936',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -766,7 +766,7 @@ const styles = StyleSheet.create({
   },
 
   phaseButtonText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 30,
     lineHeight: 32,
   },
@@ -776,7 +776,7 @@ const styles = StyleSheet.create({
   },
 
   phaseStatusLabel: {
-    color: '#756FA3',
+    color: '#5F7683',
     fontSize: 9,
     fontWeight: '900',
     letterSpacing: 1.5,
@@ -796,11 +796,11 @@ const styles = StyleSheet.create({
   },
 
   phaseComplete: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 
   phasePending: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
   },
 
   board: {
@@ -818,8 +818,8 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 10,
     borderWidth: 1.5,
-    borderColor: '#372C6E',
-    backgroundColor: '#1D1846',
+    borderColor: '#3b5265',
+    backgroundColor: '#0F2530',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -832,9 +832,9 @@ const styles = StyleSheet.create({
 
   input: {
     height: 54,
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     borderRadius: 14,
     color: '#FFFFFF',
     fontSize: 16,
@@ -847,9 +847,9 @@ const styles = StyleSheet.create({
   button: {
     height: 54,
     borderRadius: 18,
-    backgroundColor: '#FF5D73',
+    backgroundColor: '#27e9b5',
     borderBottomWidth: 5,
-    borderBottomColor: '#B23349',
+    borderBottomColor: '#159E82',
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 12,
@@ -874,33 +874,33 @@ const styles = StyleSheet.create({
   },
 
   winText: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 
   loseText: {
-    color: '#FF5C7A',
+    color: '#8CA3AE',
   },
 
   completedText: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 13,
     fontWeight: '800',
     marginTop: 8,
   },
 
   secretWord: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 16,
     fontWeight: '700',
     marginTop: 8,
   },
 
   restartButton: {
-    backgroundColor: '#241B57',
+    backgroundColor: '#162936',
     borderWidth: 2,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     borderBottomWidth: 5,
-    borderBottomColor: '#170F35',
+    borderBottomColor: '#0A1F2C',
     borderRadius: 16,
     paddingHorizontal: 24,
     paddingVertical: 14,
@@ -915,10 +915,10 @@ const styles = StyleSheet.create({
   },
 
   nextButton: {
-    backgroundColor: '#FF5D73',
+    backgroundColor: '#27e9b5',
     borderRadius: 16,
     borderBottomWidth: 5,
-    borderBottomColor: '#B23349',
+    borderBottomColor: '#159E82',
     paddingHorizontal: 28,
     paddingVertical: 14,
     marginTop: 10,
@@ -932,7 +932,7 @@ const styles = StyleSheet.create({
   },
 
   phaseListTitle: {
-    color: '#756FA3',
+    color: '#5F7683',
     fontSize: 10,
     fontWeight: '900',
     letterSpacing: 1.8,
@@ -950,16 +950,16 @@ const styles = StyleSheet.create({
     width: '17.5%',
     aspectRatio: 1,
     borderRadius: 12,
-    backgroundColor: '#1D1846',
+    backgroundColor: '#0F2530',
     borderWidth: 1,
-    borderColor: '#372C6E',
+    borderColor: '#3b5265',
     alignItems: 'center',
     justifyContent: 'center',
   },
 
   phaseTileComplete: {
-    borderColor: '#1E8F63',
-    backgroundColor: '#123626',
+    borderColor: '#159E82',
+    backgroundColor: '#0E3A32',
   },
 
   phaseTileLocked: {
@@ -967,31 +967,31 @@ const styles = StyleSheet.create({
   },
 
   phaseTileCurrent: {
-    borderColor: '#FF5D73',
+    borderColor: '#27e9b5',
     borderWidth: 2,
   },
 
   phaseTileText: {
-    color: '#FFECB3',
+    color: '#EAF6F2',
     fontSize: 15,
     fontWeight: '900',
   },
 
   phaseTileTextComplete: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 
   phaseTileTextLocked: {
-    color: '#4B4678',
+    color: '#3E5462',
   },
 
   phaseTileStatus: {
-    color: '#ABA4D9',
+    color: '#8CA3AE',
     fontSize: 10,
     marginTop: 2,
   },
 
   phaseTileStatusComplete: {
-    color: '#3ED598',
+    color: '#27e9b5',
   },
 });

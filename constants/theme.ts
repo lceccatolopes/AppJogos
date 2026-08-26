@@ -53,33 +53,37 @@ export const Fonts = Platform.select({
 });
 
 /**
- * Paleta "de jogo": fundo indigo escuro, título creme e uma cor de destaque
- * própria para cada modo de jogo (usada nos cards, tabuleiros e botões).
- * Os botões usam `dark` como borderBottomColor para simular um botão 3D
- * "prensável", estilo jogo casual mobile.
+ * Paleta minimalista: fundo azul-petróleo bem escuro e um único tom de
+ * destaque (verde-menta) usado em todo o app, sem uma cor por jogo.
+ * Baseada na referência "Green Gray Color Palettes" (#162936 / #3b5265 /
+ * #27e9b5 / #051824).
  */
 export const GameTheme = {
-  bg: '#100C24',
-  bgSoft: '#170F35',
-  surface: '#1D1846',
-  surfaceAlt: '#241B57',
-  outline: '#372C6E',
-  title: '#FFECB3',
-  text: '#EDEBFF',
-  textMuted: '#ABA4D9',
-  textDim: '#756FA3',
-  locked: '#4B4678',
-  success: '#3ED598',
-  successDark: '#1E8F63',
-  danger: '#FF5C7A',
-  dangerDark: '#B23A52',
+  bg: '#051824',
+  bgSoft: '#0A1F2C',
+  surface: '#0F2530',
+  surfaceAlt: '#162936',
+  outline: '#3b5265',
+  title: '#EAF6F2',
+  text: '#DCE8E6',
+  textMuted: '#8CA3AE',
+  textDim: '#5F7683',
+  locked: '#3E5462',
+  success: '#27e9b5',
+  successDark: '#159E82',
+  danger: '#8CA3AE',
+  dangerDark: '#3b5265',
+
+  accent: '#27e9b5',
+  accentDark: '#159E82',
+  accentSoft: '#0E3A32',
 
   games: {
-    oculta: { base: '#FF5D73', dark: '#B23349', soft: '#3A1830' },
-    embaralhada: { base: '#FF9F45', dark: '#C36F1E', soft: '#3A2414' },
-    cruzadas: { base: '#4EA1FF', dark: '#2A6FC2', soft: '#152A46' },
-    cacaPalavras: { base: '#3DDC84', dark: '#1F9958', soft: '#123626' },
-    sudoku: { base: '#FFD23F', dark: '#C79A17', soft: '#3A2E10' },
-    conexo: { base: '#B98BFF', dark: '#7A4FD1', soft: '#2A1D4E' },
+    oculta: { base: '#27e9b5', dark: '#159E82', soft: '#0E3A32' },
+    embaralhada: { base: '#27e9b5', dark: '#159E82', soft: '#0E3A32' },
+    cruzadas: { base: '#27e9b5', dark: '#159E82', soft: '#0E3A32' },
+    cacaPalavras: { base: '#27e9b5', dark: '#159E82', soft: '#0E3A32' },
+    sudoku: { base: '#27e9b5', dark: '#159E82', soft: '#0E3A32' },
+    conexo: { base: '#27e9b5', dark: '#159E82', soft: '#0E3A32' },
   },
 } as const;

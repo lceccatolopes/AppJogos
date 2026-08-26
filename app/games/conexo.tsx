@@ -16,10 +16,10 @@ import { useGame } from '@/context/GameContext';
 const ACCENT = GameTheme.games.conexo;
 
 const CORES_GRUPO = [
-  { base: '#FFD23F', soft: '#3A2E10', texto: '#241B0A' },
-  { base: '#3DDC84', soft: '#123626', texto: '#0A2416' },
-  { base: '#4EA1FF', soft: '#152A46', texto: '#FFFFFF' },
-  { base: '#B98BFF', soft: '#2A1D4E', texto: '#241633' },
+  { base: '#27e9b5', soft: '#0E3A32', texto: '#051824' },
+  { base: '#22CFA0', soft: '#0C332C', texto: '#051824' },
+  { base: '#1CAE86', soft: '#0A2B26', texto: '#EAF6F2' },
+  { base: '#16876A', soft: '#081F1C', texto: '#EAF6F2' },
 ];
 
 type Grupo = {
@@ -1110,11 +1110,11 @@ const styles = StyleSheet.create({
   },
 
   lifeDotActive: {
-    backgroundColor: GameTheme.danger,
+    backgroundColor: GameTheme.success,
   },
 
   lifeDotLost: {
-    backgroundColor: GameTheme.outline,
+    backgroundColor: GameTheme.bgSoft,
   },
 
   instructions: {
@@ -1292,7 +1292,7 @@ const styles = StyleSheet.create({
   },
 
   phaseTileComplete: {
-    backgroundColor: '#123626',
+    backgroundColor: GameTheme.accentSoft,
     borderColor: GameTheme.success,
   },
 
