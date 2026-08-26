@@ -221,6 +221,765 @@ const FASES: Fase[] = [
       'HONRA',
     ],
   },
+  {
+    titulo: 'Família',
+    grade: [
+      'MAEPZG',
+      'PAIXKW',
+      'IRMAOF',
+      'AVOXVX',
+      'TIOKHH',
+      'KBKHXW',
+    ],
+    palavras: [
+      'MAE',
+      'PAI',
+      'IRMAO',
+      'AVO',
+      'TIO',
+    ],
+  },
+
+  {
+    titulo: 'Corpo',
+    grade: [
+      'BRACOB',
+      'PERNAX',
+      'DEDOGX',
+      'OLHOBX',
+      'BOCAZM',
+      'HZWMJW',
+    ],
+    palavras: [
+      'BRACO',
+      'PERNA',
+      'DEDO',
+      'OLHO',
+      'BOCA',
+    ],
+  },
+
+  {
+    titulo: 'Roupas',
+    grade: [
+      'CAMISA',
+      'CALCAV',
+      'MEIAFW',
+      'LUVAKX',
+      'BONEVT',
+      'HPSSFM',
+    ],
+    palavras: [
+      'CAMISA',
+      'CALCA',
+      'MEIA',
+      'LUVA',
+      'BONE',
+    ],
+  },
+
+  {
+    titulo: 'Moveis',
+    grade: [
+      'MESABJ',
+      'SOFABK',
+      'CAMAMT',
+      'BANCOP',
+      'TAPETE',
+      'SMKWHJ',
+    ],
+    palavras: [
+      'MESA',
+      'SOFA',
+      'CAMA',
+      'BANCO',
+      'TAPETE',
+    ],
+  },
+
+  {
+    titulo: 'Instrumentos',
+    grade: [
+      'VIOLAO',
+      'FLAUTA',
+      'TAMBOR',
+      'PIANOP',
+      'BAIXOZ',
+      'THXKPP',
+    ],
+    palavras: [
+      'VIOLAO',
+      'FLAUTA',
+      'TAMBOR',
+      'PIANO',
+      'BAIXO',
+    ],
+  },
+
+  {
+    titulo: 'Profissoes',
+    grade: [
+      'MEDICO',
+      'ATORFT',
+      'JUIZSK',
+      'PILOTO',
+      'GARCOM',
+      'KNTKXM',
+    ],
+    palavras: [
+      'MEDICO',
+      'ATOR',
+      'JUIZ',
+      'PILOTO',
+      'GARCOM',
+    ],
+  },
+
+  {
+    titulo: 'Esportes',
+    grade: [
+      'JUDOSM',
+      'TENISG',
+      'BOXEFQ',
+      'REMOSF',
+      'SURFJW',
+      'TXVMZB',
+    ],
+    palavras: [
+      'JUDO',
+      'TENIS',
+      'BOXE',
+      'REMO',
+      'SURF',
+    ],
+  },
+
+  {
+    titulo: 'Veiculos',
+    grade: [
+      'CARROG',
+      'MOTOGT',
+      'TREMKJ',
+      'NAVIOS',
+      'AVIAOG',
+      'NZHNHF',
+    ],
+    palavras: [
+      'CARRO',
+      'MOTO',
+      'TREM',
+      'NAVIO',
+      'AVIAO',
+    ],
+  },
+
+  {
+    titulo: 'Insetos',
+    grade: [
+      'ABELHA',
+      'MOSCAG',
+      'PULGAB',
+      'GRILOZ',
+      'TRACAK',
+      'JZBBQT',
+    ],
+    palavras: [
+      'ABELHA',
+      'MOSCA',
+      'PULGA',
+      'GRILO',
+      'TRACA',
+    ],
+  },
+
+  {
+    titulo: 'Aves',
+    grade: [
+      'PATOJN',
+      'GALOMQ',
+      'CORVOZ',
+      'POMBOH',
+      'ARARAF',
+      'PZXSGG',
+    ],
+    palavras: [
+      'PATO',
+      'GALO',
+      'CORVO',
+      'POMBO',
+      'ARARA',
+    ],
+  },
+
+  {
+    titulo: 'Peixes',
+    grade: [
+      'ATUMGG',
+      'BAGREW',
+      'TRUTAT',
+      'CARPAG',
+      'SALMAO',
+      'XVKVSJ',
+    ],
+    palavras: [
+      'ATUM',
+      'BAGRE',
+      'TRUTA',
+      'CARPA',
+      'SALMAO',
+    ],
+  },
+
+  {
+    titulo: 'Cores',
+    grade: [
+      'AZULWP',
+      'VERDEX',
+      'ROXOWQ',
+      'PRETOZ',
+      'BRANCO',
+      'WFQKVG',
+    ],
+    palavras: [
+      'AZUL',
+      'VERDE',
+      'ROXO',
+      'PRETO',
+      'BRANCO',
+    ],
+  },
+
+  {
+    titulo: 'Numeros',
+    grade: [
+      'DOISZN',
+      'TRESFF',
+      'SEISTW',
+      'NOVEWT',
+      'DEZSTT',
+      'MKZWPN',
+    ],
+    palavras: [
+      'DOIS',
+      'TRES',
+      'SEIS',
+      'NOVE',
+      'DEZ',
+    ],
+  },
+
+  {
+    titulo: 'Formas',
+    grade: [
+      'CUBOTJ',
+      'ESFERA',
+      'CONEQV',
+      'PRISMA',
+      'LINHAF',
+      'ZQMKNF',
+    ],
+    palavras: [
+      'CUBO',
+      'ESFERA',
+      'CONE',
+      'PRISMA',
+      'LINHA',
+    ],
+  },
+
+  {
+    titulo: 'Planetas',
+    grade: [
+      'MARTEJ',
+      'VENUSF',
+      'TERRAB',
+      'PLUTAO',
+      'URANOP',
+      'BVBGBV',
+    ],
+    palavras: [
+      'MARTE',
+      'VENUS',
+      'TERRA',
+      'PLUTAO',
+      'URANO',
+    ],
+  },
+
+  {
+    titulo: 'Metais',
+    grade: [
+      'FERROT',
+      'OUROFQ',
+      'PRATAQ',
+      'COBREN',
+      'ACOTNV',
+      'FSFFKB',
+    ],
+    palavras: [
+      'FERRO',
+      'OURO',
+      'PRATA',
+      'COBRE',
+      'ACO',
+    ],
+  },
+
+  {
+    titulo: 'Bebidas',
+    grade: [
+      'SUCOWB',
+      'AGUATV',
+      'LEITEP',
+      'CAFEVT',
+      'VINHOQ',
+      'TFKWGV',
+    ],
+    palavras: [
+      'SUCO',
+      'AGUA',
+      'LEITE',
+      'CAFE',
+      'VINHO',
+    ],
+  },
+
+  {
+    titulo: 'Doces',
+    grade: [
+      'BOLOTJ',
+      'MELHPK',
+      'PUDIMG',
+      'BALASG',
+      'TORTAK',
+      'JJZQZS',
+    ],
+    palavras: [
+      'BOLO',
+      'MEL',
+      'PUDIM',
+      'BALA',
+      'TORTA',
+    ],
+  },
+
+  {
+    titulo: 'Ferramentas',
+    grade: [
+      'SERRAZ',
+      'CHAVET',
+      'PREGOF',
+      'PINCAZ',
+      'LIMAZQ',
+      'QWZHVV',
+    ],
+    palavras: [
+      'SERRA',
+      'CHAVE',
+      'PREGO',
+      'PINCA',
+      'LIMA',
+    ],
+  },
+
+  {
+    titulo: 'Clima',
+    grade: [
+      'CHUVAQ',
+      'VENTON',
+      'NEVEVM',
+      'CALORB',
+      'FRIOPN',
+      'HZXFSH',
+    ],
+    palavras: [
+      'CHUVA',
+      'VENTO',
+      'NEVE',
+      'CALOR',
+      'FRIO',
+    ],
+  },
+
+  {
+    titulo: 'Tempo',
+    grade: [
+      'HORAZZ',
+      'DIAQSJ',
+      'MESQZJ',
+      'ANOZTW',
+      'SEMANA',
+      'XPTWXB',
+    ],
+    palavras: [
+      'HORA',
+      'DIA',
+      'MES',
+      'ANO',
+      'SEMANA',
+    ],
+  },
+
+  {
+    titulo: 'Escola',
+    grade: [
+      'LAPISV',
+      'CANETA',
+      'PROVAN',
+      'AULAXW',
+      'NOTASQ',
+      'KSPVNS',
+    ],
+    palavras: [
+      'LAPIS',
+      'CANETA',
+      'PROVA',
+      'AULA',
+      'NOTA',
+    ],
+  },
+
+  {
+    titulo: 'Casa',
+    grade: [
+      'PORTAT',
+      'JANELA',
+      'TETOBN',
+      'PAREDE',
+      'CHAOVS',
+      'ZHWGSP',
+    ],
+    palavras: [
+      'PORTA',
+      'JANELA',
+      'TETO',
+      'PAREDE',
+      'CHAO',
+    ],
+  },
+
+  {
+    titulo: 'Natureza',
+    grade: [
+      'RIOKBH',
+      'MARKVM',
+      'LAGOWZ',
+      'MONTEF',
+      'VALEZN',
+      'ZSBWGT',
+    ],
+    palavras: [
+      'RIO',
+      'MAR',
+      'LAGO',
+      'MONTE',
+      'VALE',
+    ],
+  },
+
+  {
+    titulo: 'Arvores',
+    grade: [
+      'PINHOJ',
+      'CEDROB',
+      'IPEJHG',
+      'PALMAP',
+      'OLMOHV',
+      'FPKFQP',
+    ],
+    palavras: [
+      'PINHO',
+      'CEDRO',
+      'IPE',
+      'PALMA',
+      'OLMO',
+    ],
+  },
+
+  {
+    titulo: 'Animais Selvagens',
+    grade: [
+      'LEAOSS',
+      'TIGREQ',
+      'ZEBRAG',
+      'LOBOPM',
+      'URSOKW',
+      'BWKNNX',
+    ],
+    palavras: [
+      'LEAO',
+      'TIGRE',
+      'ZEBRA',
+      'LOBO',
+      'URSO',
+    ],
+  },
+
+  {
+    titulo: 'Animais Aquaticos',
+    grade: [
+      'BALEIA',
+      'FOCAJN',
+      'POLVOZ',
+      'LULAHN',
+      'OSTRAG',
+      'ZTPKNX',
+    ],
+    palavras: [
+      'BALEIA',
+      'FOCA',
+      'POLVO',
+      'LULA',
+      'OSTRA',
+    ],
+  },
+
+  {
+    titulo: 'Frutas',
+    grade: [
+      'KIWIJH',
+      'AMEIXA',
+      'GOIABA',
+      'CAJUKN',
+      'MELAOQ',
+      'KNKBKN',
+    ],
+    palavras: [
+      'KIWI',
+      'AMEIXA',
+      'GOIABA',
+      'CAJU',
+      'MELAO',
+    ],
+  },
+
+  {
+    titulo: 'Legumes',
+    grade: [
+      'BATATA',
+      'ALFACE',
+      'NABOWS',
+      'MILHOQ',
+      'CEBOLA',
+      'PHNZXB',
+    ],
+    palavras: [
+      'BATATA',
+      'ALFACE',
+      'NABO',
+      'MILHO',
+      'CEBOLA',
+    ],
+  },
+
+  {
+    titulo: 'Brinquedos',
+    grade: [
+      'BONECA',
+      'PIAOWJ',
+      'IOIONX',
+      'BOLAJV',
+      'PIPAMM',
+      'VMSJNF',
+    ],
+    palavras: [
+      'BONECA',
+      'PIAO',
+      'IOIO',
+      'BOLA',
+      'PIPA',
+    ],
+  },
+
+  {
+    titulo: 'Musica',
+    grade: [
+      'SAMBAQ',
+      'ROCKNX',
+      'JAZZQQ',
+      'FORROV',
+      'FUNKTB',
+      'SWHTGM',
+    ],
+    palavras: [
+      'SAMBA',
+      'ROCK',
+      'JAZZ',
+      'FORRO',
+      'FUNK',
+    ],
+  },
+
+  {
+    titulo: 'Paises',
+    grade: [
+      'BRASIL',
+      'CHINAV',
+      'JAPAOB',
+      'FRANCA',
+      'ITALIA',
+      'PVZGFX',
+    ],
+    palavras: [
+      'BRASIL',
+      'CHINA',
+      'JAPAO',
+      'FRANCA',
+      'ITALIA',
+    ],
+  },
+
+  {
+    titulo: 'Tecnologia',
+    grade: [
+      'CHIPZQ',
+      'SITEKN',
+      'REDEHJ',
+      'DADOSX',
+      'TECLAK',
+      'GMBMXS',
+    ],
+    palavras: [
+      'CHIP',
+      'SITE',
+      'REDE',
+      'DADOS',
+      'TECLA',
+    ],
+  },
+
+  {
+    titulo: 'Familia II',
+    grade: [
+      'PRIMOJ',
+      'NETOJN',
+      'SOGROS',
+      'NORAQN',
+      'TIAFPP',
+      'BXMVFJ',
+    ],
+    palavras: [
+      'PRIMO',
+      'NETO',
+      'SOGRO',
+      'NORA',
+      'TIA',
+    ],
+  },
+
+  {
+    titulo: 'Sentimentos',
+    grade: [
+      'AMORQP',
+      'MEDOGK',
+      'RAIVAT',
+      'PAZNVB',
+      'ODIOQK',
+      'NKZGXG',
+    ],
+    palavras: [
+      'AMOR',
+      'MEDO',
+      'RAIVA',
+      'PAZ',
+      'ODIO',
+    ],
+  },
+
+  {
+    titulo: 'Verbos de Acao',
+    grade: [
+      'CORRER',
+      'SALTAR',
+      'NADARQ',
+      'VOARMM',
+      'ANDARB',
+      'KZGPTZ',
+    ],
+    palavras: [
+      'CORRER',
+      'SALTAR',
+      'NADAR',
+      'VOAR',
+      'ANDAR',
+    ],
+  },
+
+  {
+    titulo: 'Higiene',
+    grade: [
+      'SABAOM',
+      'TOALHA',
+      'PENTEZ',
+      'CREMEX',
+      'ESCOVA',
+      'HZQBKQ',
+    ],
+    palavras: [
+      'SABAO',
+      'TOALHA',
+      'PENTE',
+      'CREME',
+      'ESCOVA',
+    ],
+  },
+
+  {
+    titulo: 'Escritorio',
+    grade: [
+      'CANETA',
+      'PAPELX',
+      'CLIPEZ',
+      'PASTAF',
+      'GRAMPO',
+      'WGSXQB',
+    ],
+    palavras: [
+      'CANETA',
+      'PAPEL',
+      'CLIPE',
+      'PASTA',
+      'GRAMPO',
+    ],
+  },
+
+  {
+    titulo: 'Mar',
+    grade: [
+      'ONDATN',
+      'PRAIAQ',
+      'AREIAS',
+      'CONCHA',
+      'CORALK',
+      'KKTNKN',
+    ],
+    palavras: [
+      'ONDA',
+      'PRAIA',
+      'AREIA',
+      'CONCHA',
+      'CORAL',
+    ],
+  },
+
+  {
+    titulo: 'Festa',
+    grade: [
+      'BALAOB',
+      'BRINDE',
+      'DANCAV',
+      'BOLOBS',
+      'VELATG',
+      'KTMXVK',
+    ],
+    palavras: [
+      'BALAO',
+      'BRINDE',
+      'DANCA',
+      'BOLO',
+      'VELA',
+    ],
+  },
 ];
 
 export default function WordSearchScreen() {

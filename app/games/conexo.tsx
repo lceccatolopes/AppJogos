@@ -123,6 +123,405 @@ const FASES: Fase[] = [
       { categoria: 'CONCEITOS', palavras: ['SONHO', 'IDEIA', 'MEMORIA', 'DESTINO'] },
     ],
   },
+  {
+    titulo: 'Fazenda e Campo',
+    grupos: [
+      { categoria: 'BEBIDAS QUENTES', palavras: ['CAFE', 'CHA', 'CHOCOLATE', 'CAPUCHINO'] },
+      { categoria: 'GÊNEROS MUSICAIS', palavras: ['ROCK', 'JAZZ', 'REGGAE', 'POP'] },
+      { categoria: 'ELETRODOMÉSTICOS', palavras: ['GELADEIRA', 'FOGAO', 'LIQUIDIFICADOR', 'MICROONDAS'] },
+      { categoria: 'SINAIS DE TRÂNSITO', palavras: ['SEMAFORO', 'PLACA', 'FAIXA', 'LOMBADA'] },
+    ],
+  },
+
+  {
+    titulo: 'Frutas e Sabores',
+    grupos: [
+      { categoria: 'PARTES DA CASA', palavras: ['SALA', 'COZINHA', 'QUARTO', 'BANHEIRO'] },
+      { categoria: 'VEÍCULOS AÉREOS', palavras: ['AVIAO', 'HELICOPTERO', 'BALAO', 'FOGUETE'] },
+      { categoria: 'VEÍCULOS AQUÁTICOS', palavras: ['BARCO', 'NAVIO', 'CANOA', 'JANGADA'] },
+      { categoria: 'ESTAÇÕES DO ANO', palavras: ['VERAO', 'INVERNO', 'OUTONO', 'PRIMAVERA'] },
+    ],
+  },
+
+  {
+    titulo: 'Sons e Instrumentos',
+    grupos: [
+      { categoria: 'UNIDADES DE TEMPO', palavras: ['SEGUNDO', 'MINUTO', 'HORA', 'SEMANA'] },
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+      { categoria: 'ANIMAIS DA SAVANA', palavras: ['LEAO', 'ZEBRA', 'GIRAFA', 'ELEFANTE'] },
+      { categoria: 'FENÔMENOS NATURAIS', palavras: ['TERREMOTO', 'FURACAO', 'TSUNAMI', 'VULCAO'] },
+    ],
+  },
+
+  {
+    titulo: 'Melodias do Mundo',
+    grupos: [
+      { categoria: 'GÊNEROS MUSICAIS', palavras: ['ROCK', 'JAZZ', 'REGGAE', 'POP'] },
+      { categoria: 'PROFISSÕES DA SAÚDE', palavras: ['MEDICO', 'ENFERMEIRO', 'DENTISTA', 'FARMACEUTICO'] },
+      { categoria: 'ÓRGÃOS DO CORPO', palavras: ['CORACAO', 'PULMAO', 'FIGADO', 'RIM'] },
+      { categoria: 'DOENÇAS COMUNS', palavras: ['GRIPE', 'RESFRIADO', 'FEBRE', 'TOSSE'] },
+    ],
+  },
+
+  {
+    titulo: 'Espaço Sideral',
+    grupos: [
+      { categoria: 'PROFISSÕES DE EMERGÊNCIA', palavras: ['BOMBEIRO', 'POLICIAL', 'PARAMEDICO', 'SALVAVIDAS'] },
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+      { categoria: 'COBERTURAS DE CABEÇA', palavras: ['BONE', 'BOINA', 'TOUCA', 'CAPACETE'] },
+      { categoria: 'FERRAMENTAS DE ESCRITA', palavras: ['CANETA', 'LAPIS', 'GIZ', 'MARCADOR'] },
+    ],
+  },
+
+  {
+    titulo: 'Riquezas da Terra',
+    grupos: [
+      { categoria: 'ELETRODOMÉSTICOS', palavras: ['GELADEIRA', 'FOGAO', 'LIQUIDIFICADOR', 'MICROONDAS'] },
+      { categoria: 'BEBIDAS FRIAS', palavras: ['SUCO', 'REFRIGERANTE', 'AGUA', 'LIMONADA'] },
+      { categoria: 'FENÔMENOS NATURAIS', palavras: ['TERREMOTO', 'FURACAO', 'TSUNAMI', 'VULCAO'] },
+      { categoria: 'COBERTURAS DE CABEÇA', palavras: ['BONE', 'BOINA', 'TOUCA', 'CAPACETE'] },
+    ],
+  },
+
+  {
+    titulo: 'Formas e Figuras',
+    grupos: [
+      { categoria: 'PARTES DO CARRO', palavras: ['VOLANTE', 'MOTOR', 'PNEU', 'FREIO'] },
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+      { categoria: 'PEÇAS DE XADREZ', palavras: ['REI', 'RAINHA', 'TORRE', 'BISPO'] },
+      { categoria: 'TIPOS DE DANÇA', palavras: ['SAMBA', 'FORRO', 'BALLET', 'TANGO'] },
+    ],
+  },
+
+  {
+    titulo: 'Ciclos da Natureza',
+    grupos: [
+      { categoria: 'INSTRUMENTOS DE MEDIÇÃO', palavras: ['BALANCA', 'TRENA', 'CRONOMETRO', 'TERMOSTATO'] },
+      { categoria: 'GÊNEROS MUSICAIS', palavras: ['ROCK', 'JAZZ', 'REGGAE', 'POP'] },
+      { categoria: 'ÓRGÃOS DO CORPO', palavras: ['CORACAO', 'PULMAO', 'FIGADO', 'RIM'] },
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+    ],
+  },
+
+  {
+    titulo: 'Calendário',
+    grupos: [
+      { categoria: 'DIAS DA SEMANA', palavras: ['SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA'] },
+      { categoria: 'GRÃOS', palavras: ['ARROZ', 'FEIJAO', 'MILHO', 'TRIGO'] },
+      { categoria: 'PARTES DO ROSTO', palavras: ['OLHO', 'NARIZ', 'BOCA', 'ORELHA'] },
+      { categoria: 'PARTES DA CASA', palavras: ['SALA', 'COZINHA', 'QUARTO', 'BANHEIRO'] },
+    ],
+  },
+
+  {
+    titulo: 'Vida em Casa',
+    grupos: [
+      { categoria: 'PONTOS CARDEAIS', palavras: ['NORTE', 'SUL', 'LESTE', 'OESTE'] },
+      { categoria: 'MÓVEIS DE SALA', palavras: ['SOFA', 'POLTRONA', 'ESTANTE', 'TAPETE'] },
+      { categoria: 'ESPORTES COM RAQUETE OU TACO', palavras: ['TENIS', 'GOLFE', 'RUGBI', 'POLO'] },
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+    ],
+  },
+
+  {
+    titulo: 'Cozinha Moderna',
+    grupos: [
+      { categoria: 'CUIDADOS DE SAÚDE', palavras: ['XAROPE', 'CURATIVO', 'TERMOMETRO', 'VITAMINA'] },
+      { categoria: 'PROFISSÕES DA SAÚDE', palavras: ['MEDICO', 'ENFERMEIRO', 'DENTISTA', 'FARMACEUTICO'] },
+      { categoria: 'ÓRGÃOS DO CORPO', palavras: ['CORACAO', 'PULMAO', 'FIGADO', 'RIM'] },
+      { categoria: 'UNIDADES DE MEDIDA', palavras: ['METRO', 'LITRO', 'GRAMA', 'QUILO'] },
+    ],
+  },
+
+  {
+    titulo: 'Caixa de Ferramentas',
+    grupos: [
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+      { categoria: 'TEMPEROS', palavras: ['SAL', 'PIMENTA', 'ALHO', 'CEBOLA'] },
+      { categoria: 'ESPORTES OLÍMPICOS', palavras: ['ATLETISMO', 'NATACAO', 'GINASTICA', 'JUDO'] },
+      { categoria: 'BEBIDAS QUENTES', palavras: ['CAFE', 'CHA', 'CHOCOLATE', 'CAPUCHINO'] },
+    ],
+  },
+
+  {
+    titulo: 'No Ar e no Mar',
+    grupos: [
+      { categoria: 'INSTRUMENTOS DE CORDA', palavras: ['VIOLAO', 'VIOLINO', 'HARPA', 'GUITARRA'] },
+      { categoria: 'ANIMAIS POLARES', palavras: ['PINGUIM', 'FOCA', 'MORSA', 'RENA'] },
+      { categoria: 'MÓVEIS DE QUARTO', palavras: ['CAMA', 'ARMARIO', 'TRAVESSEIRO', 'COBERTOR'] },
+      { categoria: 'ANIMAIS DE FAZENDA', palavras: ['VACA', 'PORCO', 'OVELHA', 'CAVALO'] },
+    ],
+  },
+
+  {
+    titulo: 'Reino Animal',
+    grupos: [
+      { categoria: 'TIPOS DE MASSA', palavras: ['MACARRAO', 'LASANHA', 'NHOQUE', 'RAVIOLI'] },
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+      { categoria: 'TIPOS DE DANÇA', palavras: ['SAMBA', 'FORRO', 'BALLET', 'TANGO'] },
+      { categoria: 'PROFISSÕES DE EMERGÊNCIA', palavras: ['BOMBEIRO', 'POLICIAL', 'PARAMEDICO', 'SALVAVIDAS'] },
+    ],
+  },
+
+  {
+    titulo: 'Terras Geladas',
+    grupos: [
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+      { categoria: 'GRÃOS', palavras: ['ARROZ', 'FEIJAO', 'MILHO', 'TRIGO'] },
+      { categoria: 'PROFISSÕES DA SAÚDE', palavras: ['MEDICO', 'ENFERMEIRO', 'DENTISTA', 'FARMACEUTICO'] },
+      { categoria: 'ELETRODOMÉSTICOS', palavras: ['GELADEIRA', 'FOGAO', 'LIQUIDIFICADOR', 'MICROONDAS'] },
+    ],
+  },
+
+  {
+    titulo: 'Bichos Diferentes',
+    grupos: [
+      { categoria: 'SINAIS DE TRÂNSITO', palavras: ['SEMAFORO', 'PLACA', 'FAIXA', 'LOMBADA'] },
+      { categoria: 'GRÃOS', palavras: ['ARROZ', 'FEIJAO', 'MILHO', 'TRIGO'] },
+      { categoria: 'INSTRUMENTOS DE SOPRO', palavras: ['FLAUTA', 'TROMPETE', 'SAXOFONE', 'CLARINETE'] },
+      { categoria: 'INSTRUMENTOS DE PERCUSSÃO', palavras: ['TAMBOR', 'BATERIA', 'PANDEIRO', 'XILOFONE'] },
+    ],
+  },
+
+  {
+    titulo: 'Jogos Olímpicos',
+    grupos: [
+      { categoria: 'ESTAÇÕES DO ANO', palavras: ['VERAO', 'INVERNO', 'OUTONO', 'PRIMAVERA'] },
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+      { categoria: 'CUIDADOS DE SAÚDE', palavras: ['XAROPE', 'CURATIVO', 'TERMOMETRO', 'VITAMINA'] },
+      { categoria: 'MESES', palavras: ['JANEIRO', 'FEVEREIRO', 'MARCO', 'ABRIL'] },
+    ],
+  },
+
+  {
+    titulo: 'Competições',
+    grupos: [
+      { categoria: 'CORPOS CELESTES', palavras: ['ESTRELA', 'COMETA', 'ASTEROIDE', 'GALAXIA'] },
+      { categoria: 'PEÇAS DE XADREZ', palavras: ['REI', 'RAINHA', 'TORRE', 'BISPO'] },
+      { categoria: 'CARNES', palavras: ['FRANGO', 'BOI', 'PATO', 'PEIXE'] },
+      { categoria: 'SINAIS DE TRÂNSITO', palavras: ['SEMAFORO', 'PLACA', 'FAIXA', 'LOMBADA'] },
+    ],
+  },
+
+  {
+    titulo: 'Ritmo e Batida',
+    grupos: [
+      { categoria: 'PARTES DA CASA', palavras: ['SALA', 'COZINHA', 'QUARTO', 'BANHEIRO'] },
+      { categoria: 'MATERIAL ESCOLAR', palavras: ['CADERNO', 'BORRACHA', 'REGUA', 'MOCHILA'] },
+      { categoria: 'PARTES DO ROSTO', palavras: ['OLHO', 'NARIZ', 'BOCA', 'ORELHA'] },
+      { categoria: 'INSTRUMENTOS DE CORDA', palavras: ['VIOLAO', 'VIOLINO', 'HARPA', 'GUITARRA'] },
+    ],
+  },
+
+  {
+    titulo: 'Pista de Dança',
+    grupos: [
+      { categoria: 'FIGURAS GEOMÉTRICAS', palavras: ['CIRCULO', 'QUADRADO', 'TRIANGULO', 'RETANGULO'] },
+      { categoria: 'FRUTAS CÍTRICAS', palavras: ['LARANJA', 'LIMAO', 'TANGERINA', 'LIMA'] },
+      { categoria: 'MESES', palavras: ['JANEIRO', 'FEVEREIRO', 'MARCO', 'ABRIL'] },
+      { categoria: 'TEMPEROS', palavras: ['SAL', 'PIMENTA', 'ALHO', 'CEBOLA'] },
+    ],
+  },
+
+  {
+    titulo: 'Trilha Sonora',
+    grupos: [
+      { categoria: 'ÓRGÃOS DO CORPO', palavras: ['CORACAO', 'PULMAO', 'FIGADO', 'RIM'] },
+      { categoria: 'INSTRUMENTOS DE MEDIÇÃO', palavras: ['BALANCA', 'TRENA', 'CRONOMETRO', 'TERMOSTATO'] },
+      { categoria: 'BEBIDAS FRIAS', palavras: ['SUCO', 'REFRIGERANTE', 'AGUA', 'LIMONADA'] },
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+    ],
+  },
+
+  {
+    titulo: 'Copo Cheio',
+    grupos: [
+      { categoria: 'TIPOS DE MASSA', palavras: ['MACARRAO', 'LASANHA', 'NHOQUE', 'RAVIOLI'] },
+      { categoria: 'ACESSÓRIOS', palavras: ['RELOGIO', 'COLAR', 'PULSEIRA', 'BRINCO'] },
+      { categoria: 'METAIS', palavras: ['FERRO', 'OURO', 'PRATA', 'COBRE'] },
+      { categoria: 'DIAS DA SEMANA', palavras: ['SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA'] },
+    ],
+  },
+
+  {
+    titulo: 'Prato do Dia',
+    grupos: [
+      { categoria: 'ANFÍBIOS', palavras: ['SAPO', 'PERERECA', 'SALAMANDRA', 'GIRINO'] },
+      { categoria: 'COBERTURAS DE CABEÇA', palavras: ['BONE', 'BOINA', 'TOUCA', 'CAPACETE'] },
+      { categoria: 'ANIMAIS DE FAZENDA', palavras: ['VACA', 'PORCO', 'OVELHA', 'CAVALO'] },
+      { categoria: 'GÊNEROS MUSICAIS', palavras: ['ROCK', 'JAZZ', 'REGGAE', 'POP'] },
+    ],
+  },
+
+  {
+    titulo: 'Mesa Farta',
+    grupos: [
+      { categoria: 'ESPORTES COM RAQUETE OU TACO', palavras: ['TENIS', 'GOLFE', 'RUGBI', 'POLO'] },
+      { categoria: 'ESTAÇÕES DO ANO', palavras: ['VERAO', 'INVERNO', 'OUTONO', 'PRIMAVERA'] },
+      { categoria: 'PROFISSÕES DA SAÚDE', palavras: ['MEDICO', 'ENFERMEIRO', 'DENTISTA', 'FARMACEUTICO'] },
+      { categoria: 'BEBIDAS QUENTES', palavras: ['CAFE', 'CHA', 'CHOCOLATE', 'CAPUCHINO'] },
+    ],
+  },
+
+  {
+    titulo: 'Tempero Especial',
+    grupos: [
+      { categoria: 'ELETRODOMÉSTICOS', palavras: ['GELADEIRA', 'FOGAO', 'LIQUIDIFICADOR', 'MICROONDAS'] },
+      { categoria: 'PEÇAS DE XADREZ', palavras: ['REI', 'RAINHA', 'TORRE', 'BISPO'] },
+      { categoria: 'INSTRUMENTOS DE SOPRO', palavras: ['FLAUTA', 'TROMPETE', 'SAXOFONE', 'CLARINETE'] },
+      { categoria: 'ACESSÓRIOS', palavras: ['RELOGIO', 'COLAR', 'PULSEIRA', 'BRINCO'] },
+    ],
+  },
+
+  {
+    titulo: 'Sala de Aula',
+    grupos: [
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+      { categoria: 'CARNES', palavras: ['FRANGO', 'BOI', 'PATO', 'PEIXE'] },
+      { categoria: 'ANIMAIS DA SAVANA', palavras: ['LEAO', 'ZEBRA', 'GIRAFA', 'ELEFANTE'] },
+      { categoria: 'PROFISSÕES DE EMERGÊNCIA', palavras: ['BOMBEIRO', 'POLICIAL', 'PARAMEDICO', 'SALVAVIDAS'] },
+    ],
+  },
+
+  {
+    titulo: 'Mochila Pronta',
+    grupos: [
+      { categoria: 'BEBIDAS QUENTES', palavras: ['CAFE', 'CHA', 'CHOCOLATE', 'CAPUCHINO'] },
+      { categoria: 'INSTRUMENTOS DE MEDIÇÃO', palavras: ['BALANCA', 'TRENA', 'CRONOMETRO', 'TERMOSTATO'] },
+      { categoria: 'UNIDADES DE TEMPO', palavras: ['SEGUNDO', 'MINUTO', 'HORA', 'SEMANA'] },
+      { categoria: 'ESTAÇÕES DO ANO', palavras: ['VERAO', 'INVERNO', 'OUTONO', 'PRIMAVERA'] },
+    ],
+  },
+
+  {
+    titulo: 'Cuidando de Todos',
+    grupos: [
+      { categoria: 'INSTRUMENTOS DE PERCUSSÃO', palavras: ['TAMBOR', 'BATERIA', 'PANDEIRO', 'XILOFONE'] },
+      { categoria: 'DOENÇAS COMUNS', palavras: ['GRIPE', 'RESFRIADO', 'FEBRE', 'TOSSE'] },
+      { categoria: 'TEMPEROS', palavras: ['SAL', 'PIMENTA', 'ALHO', 'CEBOLA'] },
+      { categoria: 'INSTRUMENTOS DE SOPRO', palavras: ['FLAUTA', 'TROMPETE', 'SAXOFONE', 'CLARINETE'] },
+    ],
+  },
+
+  {
+    titulo: 'Emergência',
+    grupos: [
+      { categoria: 'ESTAÇÕES DO ANO', palavras: ['VERAO', 'INVERNO', 'OUTONO', 'PRIMAVERA'] },
+      { categoria: 'CORPOS CELESTES', palavras: ['ESTRELA', 'COMETA', 'ASTEROIDE', 'GALAXIA'] },
+      { categoria: 'CUIDADOS DE SAÚDE', palavras: ['XAROPE', 'CURATIVO', 'TERMOMETRO', 'VITAMINA'] },
+      { categoria: 'SINAIS DE TRÂNSITO', palavras: ['SEMAFORO', 'PLACA', 'FAIXA', 'LOMBADA'] },
+    ],
+  },
+
+  {
+    titulo: 'Quarto Aconchegante',
+    grupos: [
+      { categoria: 'UNIDADES DE MEDIDA', palavras: ['METRO', 'LITRO', 'GRAMA', 'QUILO'] },
+      { categoria: 'CORPOS CELESTES', palavras: ['ESTRELA', 'COMETA', 'ASTEROIDE', 'GALAXIA'] },
+      { categoria: 'DIAS DA SEMANA', palavras: ['SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA'] },
+      { categoria: 'SINAIS DE TRÂNSITO', palavras: ['SEMAFORO', 'PLACA', 'FAIXA', 'LOMBADA'] },
+    ],
+  },
+
+  {
+    titulo: 'Sala de Estar',
+    grupos: [
+      { categoria: 'BEBIDAS FRIAS', palavras: ['SUCO', 'REFRIGERANTE', 'AGUA', 'LIMONADA'] },
+      { categoria: 'FIGURAS GEOMÉTRICAS', palavras: ['CIRCULO', 'QUADRADO', 'TRIANGULO', 'RETANGULO'] },
+      { categoria: 'PEDRAS PRECIOSAS', palavras: ['DIAMANTE', 'RUBI', 'ESMERALDA', 'SAFIRA'] },
+      { categoria: 'DIAS DA SEMANA', palavras: ['SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA'] },
+    ],
+  },
+
+  {
+    titulo: 'Estrada Afora',
+    grupos: [
+      { categoria: 'RÉPTEIS', palavras: ['COBRA', 'JACARE', 'LAGARTO', 'TARTARUGA'] },
+      { categoria: 'PARTES DA CASA', palavras: ['SALA', 'COZINHA', 'QUARTO', 'BANHEIRO'] },
+      { categoria: 'BEBIDAS FRIAS', palavras: ['SUCO', 'REFRIGERANTE', 'AGUA', 'LIMONADA'] },
+      { categoria: 'DIAS DA SEMANA', palavras: ['SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA'] },
+    ],
+  },
+
+  {
+    titulo: 'Trânsito Seguro',
+    grupos: [
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+      { categoria: 'MÓVEIS DE QUARTO', palavras: ['CAMA', 'ARMARIO', 'TRAVESSEIRO', 'COBERTOR'] },
+      { categoria: 'ESPORTES OLÍMPICOS', palavras: ['ATLETISMO', 'NATACAO', 'GINASTICA', 'JUDO'] },
+      { categoria: 'UNIDADES DE MEDIDA', palavras: ['METRO', 'LITRO', 'GRAMA', 'QUILO'] },
+    ],
+  },
+
+  {
+    titulo: 'Guarda-Roupa',
+    grupos: [
+      { categoria: 'FERRAMENTAS DE ESCRITA', palavras: ['CANETA', 'LAPIS', 'GIZ', 'MARCADOR'] },
+      { categoria: 'JOGOS DE TABULEIRO', palavras: ['XADREZ', 'DAMA', 'DOMINO', 'BINGO'] },
+      { categoria: 'VEÍCULOS AÉREOS', palavras: ['AVIAO', 'HELICOPTERO', 'BALAO', 'FOGUETE'] },
+      { categoria: 'PONTOS CARDEAIS', palavras: ['NORTE', 'SUL', 'LESTE', 'OESTE'] },
+    ],
+  },
+
+  {
+    titulo: 'Estilo Pessoal',
+    grupos: [
+      { categoria: 'ANIMAIS DA SAVANA', palavras: ['LEAO', 'ZEBRA', 'GIRAFA', 'ELEFANTE'] },
+      { categoria: 'FIGURAS GEOMÉTRICAS', palavras: ['CIRCULO', 'QUADRADO', 'TRIANGULO', 'RETANGULO'] },
+      { categoria: 'PONTOS CARDEAIS', palavras: ['NORTE', 'SUL', 'LESTE', 'OESTE'] },
+      { categoria: 'INSTRUMENTOS DE MEDIÇÃO', palavras: ['BALANCA', 'TRENA', 'CRONOMETRO', 'TERMOSTATO'] },
+    ],
+  },
+
+  {
+    titulo: 'Passos Confortáveis',
+    grupos: [
+      { categoria: 'TIPOS DE DANÇA', palavras: ['SAMBA', 'FORRO', 'BALLET', 'TANGO'] },
+      { categoria: 'PARTES DA CASA', palavras: ['SALA', 'COZINHA', 'QUARTO', 'BANHEIRO'] },
+      { categoria: 'ÓRGÃOS DO CORPO', palavras: ['CORACAO', 'PULMAO', 'FIGADO', 'RIM'] },
+      { categoria: 'PLANETAS', palavras: ['MERCURIO', 'VENUS', 'MARTE', 'JUPITER'] },
+    ],
+  },
+
+  {
+    titulo: 'Retrato Falado',
+    grupos: [
+      { categoria: 'MATERIAL ESCOLAR', palavras: ['CADERNO', 'BORRACHA', 'REGUA', 'MOCHILA'] },
+      { categoria: 'RÉPTEIS', palavras: ['COBRA', 'JACARE', 'LAGARTO', 'TARTARUGA'] },
+      { categoria: 'ANIMAIS DE FAZENDA', palavras: ['VACA', 'PORCO', 'OVELHA', 'CAVALO'] },
+      { categoria: 'PARTES DO CARRO', palavras: ['VOLANTE', 'MOTOR', 'PNEU', 'FREIO'] },
+    ],
+  },
+
+  {
+    titulo: 'Corpo por Dentro',
+    grupos: [
+      { categoria: 'ELEMENTOS DA NATUREZA', palavras: ['FOGO', 'AGUA', 'TERRA', 'AR'] },
+      { categoria: 'INSTRUMENTOS DE SOPRO', palavras: ['FLAUTA', 'TROMPETE', 'SAXOFONE', 'CLARINETE'] },
+      { categoria: 'ESPORTES COM RAQUETE OU TACO', palavras: ['TENIS', 'GOLFE', 'RUGBI', 'POLO'] },
+      { categoria: 'FERRAMENTAS', palavras: ['MARTELO', 'CHAVE', 'SERROTE', 'ALICATE'] },
+    ],
+  },
+
+  {
+    titulo: 'Cuidando da Saúde',
+    grupos: [
+      { categoria: 'GÊNEROS MUSICAIS', palavras: ['ROCK', 'JAZZ', 'REGGAE', 'POP'] },
+      { categoria: 'BEBIDAS QUENTES', palavras: ['CAFE', 'CHA', 'CHOCOLATE', 'CAPUCHINO'] },
+      { categoria: 'ESPORTES COM RAQUETE OU TACO', palavras: ['TENIS', 'GOLFE', 'RUGBI', 'POLO'] },
+      { categoria: 'INSTRUMENTOS DE MEDIÇÃO', palavras: ['BALANCA', 'TRENA', 'CRONOMETRO', 'TERMOSTATO'] },
+    ],
+  },
+
+  {
+    titulo: 'Farmácia Caseira',
+    grupos: [
+      { categoria: 'JOGOS DE TABULEIRO', palavras: ['XADREZ', 'DAMA', 'DOMINO', 'BINGO'] },
+      { categoria: 'BEBIDAS QUENTES', palavras: ['CAFE', 'CHA', 'CHOCOLATE', 'CAPUCHINO'] },
+      { categoria: 'GÊNEROS MUSICAIS', palavras: ['ROCK', 'JAZZ', 'REGGAE', 'POP'] },
+      { categoria: 'BEBIDAS FRIAS', palavras: ['SUCO', 'REFRIGERANTE', 'AGUA', 'LIMONADA'] },
+    ],
+  },
 ];
 
 const MAX_ERROS = 4;

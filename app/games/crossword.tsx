@@ -244,6 +244,885 @@ const FASES: Fase[] = [
       },
     ],
   },
+  {
+    titulo: 'Família',
+    palavras: [
+      {
+        resposta: 'PAI',
+        pista: 'Progenitor do sexo masculino.',
+      },
+      {
+        resposta: 'MAE',
+        pista: 'Progenitora, cuida dos filhos.',
+      },
+      {
+        resposta: 'AVO',
+        pista: 'Pai do seu pai ou da sua mãe.',
+      },
+      {
+        resposta: 'NETO',
+        pista: 'Filho do seu filho ou filha.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Corpo Humano',
+    palavras: [
+      {
+        resposta: 'BRACO',
+        pista: 'Membro superior do corpo.',
+      },
+      {
+        resposta: 'PERNA',
+        pista: 'Membro usado para caminhar.',
+      },
+      {
+        resposta: 'OLHO',
+        pista: 'Órgão da visão.',
+      },
+      {
+        resposta: 'NARIZ',
+        pista: 'Órgão usado para respirar e sentir cheiro.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Roupas',
+    palavras: [
+      {
+        resposta: 'CAMISA',
+        pista: 'Peça de roupa para a parte de cima do corpo.',
+      },
+      {
+        resposta: 'CALCA',
+        pista: 'Peça de roupa que cobre as pernas.',
+      },
+      {
+        resposta: 'MEIA',
+        pista: 'Veste-se no pé, antes do sapato.',
+      },
+      {
+        resposta: 'LUVA',
+        pista: 'Protege as mãos do frio.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Profissões',
+    palavras: [
+      {
+        resposta: 'MEDICO',
+        pista: 'Cuida da saúde das pessoas.',
+      },
+      {
+        resposta: 'ATOR',
+        pista: 'Representa personagens no cinema ou teatro.',
+      },
+      {
+        resposta: 'BOMBEIRO',
+        pista: 'Apaga incêndios e faz resgates.',
+      },
+      {
+        resposta: 'POLICIAL',
+        pista: 'Cuida da segurança e da ordem pública.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Instrumentos Musicais',
+    palavras: [
+      {
+        resposta: 'VIOLAO',
+        pista: 'Instrumento de cordas dedilhado.',
+      },
+      {
+        resposta: 'PIANO',
+        pista: 'Instrumento de teclas.',
+      },
+      {
+        resposta: 'TAMBOR',
+        pista: 'Instrumento de percussão.',
+      },
+      {
+        resposta: 'FLAUTA',
+        pista: 'Instrumento de sopro fino e longo.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Esportes',
+    palavras: [
+      {
+        resposta: 'FUTEBOL',
+        pista: 'Esporte jogado com os pés e uma bola redonda.',
+      },
+      {
+        resposta: 'NATACAO',
+        pista: 'Esporte praticado na água.',
+      },
+      {
+        resposta: 'TENIS',
+        pista: 'Esporte jogado com raquete e bolinha.',
+      },
+      {
+        resposta: 'CICLISMO',
+        pista: 'Esporte praticado de bicicleta.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Veículos',
+    palavras: [
+      {
+        resposta: 'CARRO',
+        pista: 'Veículo com quatro rodas para poucas pessoas.',
+      },
+      {
+        resposta: 'ONIBUS',
+        pista: 'Veículo grande de transporte coletivo.',
+      },
+      {
+        resposta: 'AVIAO',
+        pista: 'Voa para transportar passageiros.',
+      },
+      {
+        resposta: 'MOTO',
+        pista: 'Veículo de duas rodas com motor.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Insetos',
+    palavras: [
+      {
+        resposta: 'ABELHA',
+        pista: 'Produz mel e pode picar.',
+      },
+      {
+        resposta: 'FORMIGA',
+        pista: 'Inseto pequeno que vive em colônias.',
+      },
+      {
+        resposta: 'JOANINHA',
+        pista: 'Inseto pequeno, vermelho com bolinhas pretas.',
+      },
+      {
+        resposta: 'MOSQUITO',
+        pista: 'Inseto que pica e pode transmitir doenças.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Aves',
+    palavras: [
+      {
+        resposta: 'PATO',
+        pista: 'Ave que gosta de nadar.',
+      },
+      {
+        resposta: 'GALINHA',
+        pista: 'Ave que põe ovos na fazenda.',
+      },
+      {
+        resposta: 'CORUJA',
+        pista: 'Ave de rapina que voa à noite.',
+      },
+      {
+        resposta: 'PAPAGAIO',
+        pista: 'Ave colorida que pode repetir palavras.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Peixes e Mar',
+    palavras: [
+      {
+        resposta: 'ATUM',
+        pista: 'Peixe comum em conservas.',
+      },
+      {
+        resposta: 'TUBARAO',
+        pista: 'Peixe grande e temido dos mares.',
+      },
+      {
+        resposta: 'POLVO',
+        pista: 'Animal marinho com oito braços.',
+      },
+      {
+        resposta: 'BALEIA',
+        pista: 'Maior mamífero marinho.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Cores',
+    palavras: [
+      {
+        resposta: 'AZUL',
+        pista: 'Cor do céu em dia claro.',
+      },
+      {
+        resposta: 'VERDE',
+        pista: 'Cor das folhas.',
+      },
+      {
+        resposta: 'AMARELO',
+        pista: 'Cor do sol e da banana.',
+      },
+      {
+        resposta: 'VERMELHO',
+        pista: 'Cor do sangue e do morango.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Números',
+    palavras: [
+      {
+        resposta: 'QUATRO',
+        pista: 'Vem depois do três.',
+      },
+      {
+        resposta: 'CINCO',
+        pista: 'Número de dedos em uma mão.',
+      },
+      {
+        resposta: 'DEZ',
+        pista: 'Número de dedos das duas mãos.',
+      },
+      {
+        resposta: 'CEM',
+        pista: 'Número redondo, dez vezes dez.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Formas Geométricas',
+    palavras: [
+      {
+        resposta: 'CIRCULO',
+        pista: 'Forma redonda sem pontas.',
+      },
+      {
+        resposta: 'QUADRADO',
+        pista: 'Forma com quatro lados iguais.',
+      },
+      {
+        resposta: 'CUBO',
+        pista: 'Forma geométrica com seis faces quadradas.',
+      },
+      {
+        resposta: 'CONE',
+        pista: 'Forma que lembra um chapéu de festa.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Planetas',
+    palavras: [
+      {
+        resposta: 'MARTE',
+        pista: 'Conhecido como o planeta vermelho.',
+      },
+      {
+        resposta: 'VENUS',
+        pista: 'Planeta mais próximo da Terra.',
+      },
+      {
+        resposta: 'JUPITER',
+        pista: 'Maior planeta do sistema solar.',
+      },
+      {
+        resposta: 'SATURNO',
+        pista: 'Planeta famoso pelos seus anéis.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Metais',
+    palavras: [
+      {
+        resposta: 'FERRO',
+        pista: 'Metal usado para fazer aço.',
+      },
+      {
+        resposta: 'OURO',
+        pista: 'Metal precioso e brilhante, de cor amarela.',
+      },
+      {
+        resposta: 'PRATA',
+        pista: 'Metal precioso de cor branca.',
+      },
+      {
+        resposta: 'COBRE',
+        pista: 'Metal usado em fios elétricos.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Bebidas',
+    palavras: [
+      {
+        resposta: 'SUCO',
+        pista: 'Bebida feita de frutas.',
+      },
+      {
+        resposta: 'AGUA',
+        pista: 'Bebida essencial para a vida.',
+      },
+      {
+        resposta: 'LEITE',
+        pista: 'Bebida branca tirada da vaca.',
+      },
+      {
+        resposta: 'CAFE',
+        pista: 'Bebida escura que ajuda a acordar.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Doces',
+    palavras: [
+      {
+        resposta: 'BOLO',
+        pista: 'Sobremesa assada, comum em aniversários.',
+      },
+      {
+        resposta: 'PUDIM',
+        pista: 'Sobremesa mole com calda de caramelo.',
+      },
+      {
+        resposta: 'SORVETE',
+        pista: 'Sobremesa gelada e cremosa.',
+      },
+      {
+        resposta: 'COCADA',
+        pista: 'Doce feito com coco e açúcar.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Ferramentas',
+    palavras: [
+      {
+        resposta: 'MARTELO',
+        pista: 'Ferramenta usada para bater pregos.',
+      },
+      {
+        resposta: 'CHAVE',
+        pista: 'Ferramenta usada para apertar ou abrir.',
+      },
+      {
+        resposta: 'SERRA',
+        pista: 'Ferramenta usada para cortar madeira.',
+      },
+      {
+        resposta: 'ALICATE',
+        pista: 'Ferramenta usada para segurar ou cortar fios.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Clima',
+    palavras: [
+      {
+        resposta: 'CHUVA',
+        pista: 'Água que cai das nuvens.',
+      },
+      {
+        resposta: 'VENTO',
+        pista: 'Movimento do ar.',
+      },
+      {
+        resposta: 'NEVE',
+        pista: 'Precipitação branca e fria.',
+      },
+      {
+        resposta: 'CALOR',
+        pista: 'Sensação de temperatura alta.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Escola',
+    palavras: [
+      {
+        resposta: 'LAPIS',
+        pista: 'Usado para escrever ou desenhar.',
+      },
+      {
+        resposta: 'CANETA',
+        pista: 'Usada para escrever com tinta.',
+      },
+      {
+        resposta: 'MOCHILA',
+        pista: 'Usada para carregar os materiais escolares.',
+      },
+      {
+        resposta: 'QUADRO',
+        pista: 'Onde o professor escreve na sala de aula.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Casa',
+    palavras: [
+      {
+        resposta: 'PORTA',
+        pista: 'Usada para entrar e sair de um cômodo.',
+      },
+      {
+        resposta: 'JANELA',
+        pista: 'Deixa a luz entrar no cômodo.',
+      },
+      {
+        resposta: 'TELHADO',
+        pista: 'Cobre a casa por cima.',
+      },
+      {
+        resposta: 'PAREDE',
+        pista: 'Divide os cômodos de uma casa.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Natureza',
+    palavras: [
+      {
+        resposta: 'MONTANHA',
+        pista: 'Elevação natural muito alta do terreno.',
+      },
+      {
+        resposta: 'FLORESTA',
+        pista: 'Área com muitas árvores.',
+      },
+      {
+        resposta: 'DESERTO',
+        pista: 'Área seca com pouca chuva.',
+      },
+      {
+        resposta: 'VULCAO',
+        pista: 'Montanha que pode expelir lava.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Animais Selvagens',
+    palavras: [
+      {
+        resposta: 'LEAO',
+        pista: 'Conhecido como o rei da selva.',
+      },
+      {
+        resposta: 'TIGRE',
+        pista: 'Felino grande com listras.',
+      },
+      {
+        resposta: 'ELEFANTE',
+        pista: 'Maior mamífero terrestre, tem tromba.',
+      },
+      {
+        resposta: 'GIRAFA',
+        pista: 'Animal de pescoço muito comprido.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Frutas',
+    palavras: [
+      {
+        resposta: 'ABACAXI',
+        pista: 'Fruta tropical com casca espinhosa.',
+      },
+      {
+        resposta: 'MELANCIA',
+        pista: 'Fruta grande, verde por fora e vermelha por dentro.',
+      },
+      {
+        resposta: 'MORANGO',
+        pista: 'Fruta pequena e vermelha.',
+      },
+      {
+        resposta: 'MAMAO',
+        pista: 'Fruta alaranjada, boa para a digestão.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Legumes e Verduras',
+    palavras: [
+      {
+        resposta: 'CENOURA',
+        pista: 'Legume alaranjado e crocante.',
+      },
+      {
+        resposta: 'BATATA',
+        pista: 'Tubérculo usado em várias receitas.',
+      },
+      {
+        resposta: 'ALFACE',
+        pista: 'Verdura usada em saladas.',
+      },
+      {
+        resposta: 'TOMATE',
+        pista: 'Fruto vermelho usado em molhos.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Brinquedos',
+    palavras: [
+      {
+        resposta: 'BONECA',
+        pista: 'Brinquedo em forma de pessoa.',
+      },
+      {
+        resposta: 'PIAO',
+        pista: 'Brinquedo que gira sobre a ponta.',
+      },
+      {
+        resposta: 'PIPA',
+        pista: 'Brinquedo que voa preso a uma linha.',
+      },
+      {
+        resposta: 'BOLA',
+        pista: 'Brinquedo redondo usado em vários esportes.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Música',
+    palavras: [
+      {
+        resposta: 'SAMBA',
+        pista: 'Ritmo brasileiro tocado no carnaval.',
+      },
+      {
+        resposta: 'ROCK',
+        pista: 'Estilo musical com guitarras elétricas.',
+      },
+      {
+        resposta: 'FORRO',
+        pista: 'Ritmo típico do nordeste brasileiro.',
+      },
+      {
+        resposta: 'VIOLINO',
+        pista: 'Instrumento de cordas tocado com arco.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Países',
+    palavras: [
+      {
+        resposta: 'BRASIL',
+        pista: 'País onde se fala português, na América do Sul.',
+      },
+      {
+        resposta: 'JAPAO',
+        pista: 'País asiático conhecido pela tecnologia.',
+      },
+      {
+        resposta: 'FRANCA',
+        pista: 'País europeu famoso pela Torre Eiffel.',
+      },
+      {
+        resposta: 'EGITO',
+        pista: 'País africano famoso pelas pirâmides.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Tecnologia',
+    palavras: [
+      {
+        resposta: 'CELULAR',
+        pista: 'Aparelho usado para ligar e navegar na internet.',
+      },
+      {
+        resposta: 'MOUSE',
+        pista: 'Usado para clicar e mover o cursor no computador.',
+      },
+      {
+        resposta: 'INTERNET',
+        pista: 'Rede que conecta o mundo todo.',
+      },
+      {
+        resposta: 'TECLADO',
+        pista: 'Usado para digitar no computador.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Sentimentos',
+    palavras: [
+      {
+        resposta: 'ALEGRIA',
+        pista: 'Sentimento de felicidade.',
+      },
+      {
+        resposta: 'MEDO',
+        pista: 'Sentimento de receio ou temor.',
+      },
+      {
+        resposta: 'RAIVA',
+        pista: 'Sentimento de forte irritação.',
+      },
+      {
+        resposta: 'SAUDADE',
+        pista: 'Sentimento de falta de alguém ou de algo.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Higiene',
+    palavras: [
+      {
+        resposta: 'SABONETE',
+        pista: 'Usado para lavar o corpo no banho.',
+      },
+      {
+        resposta: 'ESCOVA',
+        pista: 'Usada para escovar os dentes ou o cabelo.',
+      },
+      {
+        resposta: 'XAMPU',
+        pista: 'Usado para lavar o cabelo.',
+      },
+      {
+        resposta: 'TOALHA',
+        pista: 'Usada para se secar depois do banho.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Escritório',
+    palavras: [
+      {
+        resposta: 'PAPEL',
+        pista: 'Usado para escrever ou imprimir.',
+      },
+      {
+        resposta: 'GRAMPO',
+        pista: 'Peça de metal usada para prender papéis.',
+      },
+      {
+        resposta: 'TESOURA',
+        pista: 'Usada para cortar papel.',
+      },
+      {
+        resposta: 'PASTA',
+        pista: 'Usada para guardar documentos.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Praia',
+    palavras: [
+      {
+        resposta: 'AREIA',
+        pista: 'Cobre o chão da praia.',
+      },
+      {
+        resposta: 'ONDA',
+        pista: 'Movimento da água do mar.',
+      },
+      {
+        resposta: 'BIQUINI',
+        pista: 'Roupa de banho feminina.',
+      },
+      {
+        resposta: 'BOIA',
+        pista: 'Objeto inflável usado para boiar na água.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Inverno',
+    palavras: [
+      {
+        resposta: 'FRIO',
+        pista: 'Sensação de temperatura baixa.',
+      },
+      {
+        resposta: 'CACHECOL',
+        pista: 'Usado no pescoço para se proteger do frio.',
+      },
+      {
+        resposta: 'LUVA',
+        pista: 'Protege as mãos do frio.',
+      },
+      {
+        resposta: 'COBERTOR',
+        pista: 'Usado na cama para se aquecer.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Verão',
+    palavras: [
+      {
+        resposta: 'CALOR',
+        pista: 'Sensação de temperatura alta.',
+      },
+      {
+        resposta: 'PISCINA',
+        pista: 'Lugar para nadar e se refrescar.',
+      },
+      {
+        resposta: 'SORVETE',
+        pista: 'Sobremesa gelada, muito pedida no calor.',
+      },
+      {
+        resposta: 'OCULOS',
+        pista: 'Usados para proteger os olhos do sol.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Transporte Público',
+    palavras: [
+      {
+        resposta: 'ONIBUS',
+        pista: 'Transporte coletivo que roda pelas ruas.',
+      },
+      {
+        resposta: 'METRO',
+        pista: 'Roda em trilhos, geralmente embaixo da terra.',
+      },
+      {
+        resposta: 'TREM',
+        pista: 'Anda sobre trilhos e liga cidades.',
+      },
+      {
+        resposta: 'TAXI',
+        pista: 'Transporte pago, dirigido por um motorista.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Corpo Humano II',
+    palavras: [
+      {
+        resposta: 'CORACAO',
+        pista: 'Órgão que bombeia o sangue.',
+      },
+      {
+        resposta: 'PULMAO',
+        pista: 'Órgão usado para respirar.',
+      },
+      {
+        resposta: 'ESTOMAGO',
+        pista: 'Órgão que ajuda a digerir os alimentos.',
+      },
+      {
+        resposta: 'CEREBRO',
+        pista: 'Órgão que controla o corpo, fica na cabeça.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Objetos de Cozinha',
+    palavras: [
+      {
+        resposta: 'PANELA',
+        pista: 'Usada para cozinhar os alimentos.',
+      },
+      {
+        resposta: 'GARFO',
+        pista: 'Talher usado para espetar a comida.',
+      },
+      {
+        resposta: 'FACA',
+        pista: 'Talher usado para cortar.',
+      },
+      {
+        resposta: 'COLHER',
+        pista: 'Talher usado para comer sopa.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Relevo',
+    palavras: [
+      {
+        resposta: 'MONTANHA',
+        pista: 'Elevação natural muito alta.',
+      },
+      {
+        resposta: 'VALE',
+        pista: 'Terreno baixo entre montanhas.',
+      },
+      {
+        resposta: 'SERRA',
+        pista: 'Conjunto de montanhas.',
+      },
+      {
+        resposta: 'PLANALTO',
+        pista: 'Terreno alto e relativamente plano.',
+      },
+    ],
+  },
+
+  {
+    titulo: 'Desafio Supremo',
+    palavras: [
+      {
+        resposta: 'DESTINO',
+        pista: 'Aquilo que o futuro reserva para alguém.',
+      },
+      {
+        resposta: 'CORAGEM',
+        pista: 'Força para enfrentar o medo.',
+      },
+      {
+        resposta: 'MEMORIA',
+        pista: 'Capacidade de lembrar do passado.',
+      },
+      {
+        resposta: 'VITORIA',
+        pista: 'Resultado de quem vence um desafio.',
+      },
+    ],
+  },
 ];
 
 export default function CrosswordScreen() {

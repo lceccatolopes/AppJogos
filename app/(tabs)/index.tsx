@@ -230,7 +230,7 @@ export default function HomeScreen() {
             emoji="✏️"
             description="Resolva as pistas e complete todas as palavras da fase."
             icon="grid"
-            info="10 fases • pistas e respostas"
+            info="50 fases • pistas e respostas"
             accent={GameTheme.games.cruzadas}
             enabled
             rotate="-0.6deg"
@@ -244,7 +244,7 @@ export default function HomeScreen() {
             emoji="🔎"
             description="Encontre todas as palavras escondidas no tabuleiro."
             icon="search"
-            info="10 fases • vários temas"
+            info="50 fases • vários temas"
             accent={GameTheme.games.cacaPalavras}
             enabled
             rotate="0.6deg"
@@ -272,7 +272,7 @@ export default function HomeScreen() {
             emoji="🧩"
             description="Encontre grupos de palavras que compartilham uma conexão em comum."
             icon="git-network"
-            info="10 fases • categorias e associações"
+            info="50 fases • categorias e associações"
             accent={GameTheme.games.conexo}
             enabled
             rotate="0.6deg"
@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
   scrollContent: {
     paddingHorizontal: 20,
     paddingTop: 30,
-    paddingBottom: 40,
+    paddingBottom: 120,
   },
 
   header: {

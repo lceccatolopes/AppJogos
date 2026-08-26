@@ -11,10 +11,10 @@ import { useGame } from '@/context/GameContext';
 
 const TOTAL_FASES_PALAVRA_OCULTA = 50;
 const TOTAL_FASES_PALAVRA_EMBARALHADA = 50;
-const TOTAL_FASES_PALAVRAS_CRUZADAS = 10;
-const TOTAL_FASES_CACA_PALAVRAS = 10;
+const TOTAL_FASES_PALAVRAS_CRUZADAS = 50;
+const TOTAL_FASES_CACA_PALAVRAS = 50;
 const TOTAL_FASES_SUDOKU = 3;
-const TOTAL_FASES_CONEXO = 10;
+const TOTAL_FASES_CONEXO = 50;
 
 type GameProgressCardProps = {
   emoji: string;
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
   content: {
     paddingHorizontal: 20,
     paddingTop: 35,
-    paddingBottom: 40,
+    paddingBottom: 120,
   },
 
   eyebrow: {
